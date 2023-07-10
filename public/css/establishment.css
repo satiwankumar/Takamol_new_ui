@@ -1,0 +1,278 @@
+.container {
+  background-color: white;
+  height: 200px;
+  padding: 20px;
+}
+.esb-container-2 {
+  background-color: white;
+  height: auto;
+  margin: 50px;
+  margin-top: 70px;
+  width: 1000px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.self-evaluate-button-container {
+  margin: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.customclass {
+  margin-top: 30px;
+}
+
+.btn {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.table-container {
+  margin-top: 30px;
+  background: white;
+  margin-bottom: 30px;
+}
+
+.heading {
+  padding: 30px;
+}
+
+.wrapper {
+  margin-top: -75px;
+  width: 100%;
+  max-width: 2000px;
+  padding: -1.5rem;
+}
+
+.certificationContainer {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 100px;
+  position: relative;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.certified {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  gap: 15px;
+  color: #2bb574;
+  font-weight: bold;
+}
+
+.row {
+  margin-bottom: 30px;
+  display: flex;
+  gap: 160px;
+  align-items: center;
+}
+
+.row p {
+  color: #bdbbbb;
+}
+
+.main-container {
+  background-color: #f2f7f8;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  padding: 40px;
+  margin-right: 150px;
+}
+
+.main-container p {
+  color: #bdbbbb;
+}
+
+.flex {
+  display: flex;
+  gap: 200px;
+  margin-bottom: 10px;
+}
+
+.flex2 {
+  display: flex;
+  gap: 140px;
+  margin-bottom: 10px;
+}
+
+.flex p {
+  margin-bottom: 5px;
+}
+
+.footer-section {
+  margin-top: 50px;
+}
+
+.footer-section p {
+  color: #979797;
+}
+
+.footer-section .para {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.footer-section span {
+  text-decoration: underline;
+}
+
+.QRCODE {
+  margin-top: 30px;
+}
+
+.lineStyle {
+  background-color: red;
+  width: 100%;
+  height: 5px;
+  margin-bottom: 20px;
+}
+
+hr {
+  color: #979797;
+  opacity: 0.1;
+  margin-top: 20px;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+  padding: 0px !important;
+  max-width: 1300px !important;
+}
+
+.innerContainer {
+  padding: 20px 30px;
+}
+
+.no_question_found_container {
+  padding: 20px 30px;
+  text-align: center;
+}
+/* OSHCERTIFICATION Page Design */
+
+.circleSection {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.circle {
+  background-color: #f3c354;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.yellow {
+  color: #f3c354;
+  font-weight: 700;
+}
+
+.black {
+  color: black;
+  margin-left: 5px;
+  font-weight: 100;
+}
+
+.blackk {
+  color: black;
+  font-weight: 100;
+}
+
+.EvaluateSection {
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.EvaluateSection p {
+  color: #bdbbbb;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+  color: #308689;
+}
+
+.Icon-flex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #308689;
+}
+
+.certifiedFlex {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 600px;
+}
+
+.top-btn {
+  border: 1px solid;
+  color: #979797;
+}
+
+.header-btn {
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid #979797;
+}
+
+.space {
+  margin-right: 10px;
+  width: 80px;
+}
+
+.modelBox {
+  width: 300px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.dialog {
+  width: 500px !important;
+}
+
+.dialog1 {
+  width: 500px !important;
+  height: 500px;
+}
+
+.dialogFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.wrapper > div:first-child {
+  padding: 22px 40px;
+}
+
+.loading {
+  top: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

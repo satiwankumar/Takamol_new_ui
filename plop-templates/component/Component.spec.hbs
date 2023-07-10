@@ -1,0 +1,17 @@
+import * as React from 'react';
+import { createTestWrapper } from '@takamol/react-qiwa-core';
+import { screen } from '@testing-library/react';
+
+import { {{pascalCase name}} } from '.';
+
+describe('{{pascalCase name}}', () => {
+  test('renders', () => {
+    createTestWrapper({
+      children: <{{pascalCase name}} name="Example Name" />,
+    });
+
+    const element = screen.getByText(/example name/i);
+
+    expect(element).toBeInTheDocument();
+  });
+});

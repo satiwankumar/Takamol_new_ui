@@ -1,0 +1,7 @@
+include:
+  - project: "takamol/qiwa/infrastructure/ci-cd"
+    file: "/vue-npm/.gitlab-ci.yml"
+    ref: "master"
+
+variables:
+  NODE_VERSION: 18

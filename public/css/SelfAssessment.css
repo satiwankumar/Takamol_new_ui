@@ -1,0 +1,175 @@
+/* FORM CSS STARTS */
+
+.form__bg {
+  background-color: #fff;
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 0 70px; */
+}
+
+.form__qs {
+  padding: 0 0px;
+}
+
+.form__bg .form__qs {
+  position: relative;
+}
+.form__bg .form__qs .question h4 {
+  font-weight: 700;
+  font-family: 'Frutiger LT Arabic 55 Roman';
+  letter-spacing: 0.15px;
+  font-size: 1.4rem;
+  margin-bottom: 0px;
+  line-height: 40px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.form__bg .form__qs .question p,
+.form__bg .form__qs .upload__document .heading p {
+  font-weight: 400;
+  font-family: 'Frutiger LT Arabic 55 Roman';
+  letter-spacing: 0.25px;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  line-height: 20px;
+  padding: 0 0 0 0px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 2px;
+}
+
+.form__bg .form__qs .answer__option {
+  margin-bottom: 30px;
+}
+
+.form__bg .form__qs .answer__option label {
+  font-weight: 400;
+  font-family: 'Frutiger LT Arabic 55 Roman';
+  letter-spacing: 0.15px;
+  font-size: 1rem;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0 8px 0 8px;
+}
+
+.form__bg .form__qs .answer__option input {
+  width: 18px;
+  height: 18px;
+  margin-bottom: 12px;
+}
+
+input[name='radio'] {
+  accent-color: #148287;
+}
+
+.form__bg .form__qs .upload__document .heading h4 {
+  font-weight: 700;
+  font-family: 'Frutiger LT Arabic 55 Roman';
+  letter-spacing: 0.15px;
+  font-size: 1.4rem;
+  margin-bottom: 0px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* .form__bg .form__qs .upload__document .heading p {
+  font-weight: 400;
+  font-family: "Frutiger LT Arabic 55 Roman";
+  letter-spacing: 0.15px;
+  font-size: 0.9rem;
+  margin-bottom: 30px;
+  line-height: 20px;
+  padding: 0 0 0 170px;
+  color: rgba(0, 0, 0, 0.6);
+} */
+
+.form__bg .form__qs .upload__document .upload__option {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form__bg .form__qs .upload__document .upload__option .guide__uploading p {
+  font-weight: 400;
+  font-family: 'Frutiger LT Arabic 55 Roman';
+  letter-spacing: 0.15px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.form__bg .form__qs .upload__document .upload__option input[type='file'] {
+  display: none;
+}
+
+.form__bg .form__qs .upload__document .upload__option .custom-file-upload {
+  border: 1px solid #1c5a7d;
+  color: #1c5a7d;
+  background-color: #eeefef;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px 30px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.form__bg .form__qs .upload__document .upload__option .custom-file-uploadLTR {
+  border: 1px solid #1c5a7d;
+  color: #1c5a7d;
+  background-color: #eeefef;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 8px 30px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.upload__preview {
+  margin-top: 40px;
+  /* display: flex; */
+  width: 50%;
+  padding-right: 15px;
+}
+
+.css-1xzgfwt-MuiPaper-root-MuiAccordion-root {
+  width: 100%;
+}
+.upload-parent {
+  display: flex;
+}
+
+.upload__preview .file__upload__preview {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #9e9e9e;
+  padding: 5px 12px;
+  border-radius: 8px;
+}
+.upload__preview .file__name {
+  display: flex;
+}
+.upload__preview .file__name p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.upload__preview .file__name .file__uploaded__tick {
+  color: #1c5a7d;
+}
+
+.upload__preview .file__upload__preview .file__remove {
+  margin-top: 6px;
+}
+
+.upload__preview .file__upload__preview .file__remove .file__uploaded__close {
+  cursor: pointer;
+}
+
+.AdditionalComment input {
+  width: 100%;
+}
+
+.supervisor__screen {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+.left__screen {
+  padding: 20px;
+}
+.answer_screen {
+  padding: 20px;
+}

@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+  react-starter-app:
+    image: $IMAGE_NAME
+    restart: unless-stopped
+    ports:
+      - 80
+    volumes:
+      - ./config.json:/usr/share/nginx/html/config.json
+    environment:
+      VIRTUAL_HOST: react-starter.$URL
+
+networks:
+  default:
+    external:
+      name: nginx-proxy

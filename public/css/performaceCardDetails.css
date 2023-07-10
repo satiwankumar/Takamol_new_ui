@@ -1,0 +1,21 @@
+.pcricon {
+  width: 48px;
+  border: 1px solid #14415a;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  justify-content: center;
+}
+.pcrmaindiv .pcricon svg {
+  margin-right: 0;
+  margin-bottom: 0;
+  color: #148287;
+}
+.pcrmaindiv {
+  display: flex;
+}
+.pcrmaindiv h5 {
+  margin: 7px;
+}

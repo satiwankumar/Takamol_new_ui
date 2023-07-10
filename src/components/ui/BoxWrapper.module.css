@@ -1,0 +1,11 @@
+.boxWrapper {
+  background: #ffffff;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.04);
+
+  padding: 30px 40px;
+}
+@media (max-width: 768px) {
+  .boxWrapper {
+    padding: 30px 10px;
+  }
+}

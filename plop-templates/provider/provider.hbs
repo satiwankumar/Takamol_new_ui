@@ -1,0 +1,15 @@
+import * as React from 'react';
+
+export type {{pascalCase name}}Props = {
+  name?: string;
+};
+
+export type {{pascalCase name}}ProviderProps = {
+  children: React.ReactNode;
+};
+
+export const {{pascalCase name}} = React.createContext<{{pascalCase name}}Props | undefined>(undefined);
+
+export const {{pascalCase name}}Provider = ({ children }: {{pascalCase name}}ProviderProps) => {
+  return <div>{children}</div>;
+};
