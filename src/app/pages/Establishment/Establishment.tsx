@@ -126,8 +126,19 @@ export const EstablishmentList = () => {
       },
     },
   ]);
+  async function getCategories() {
+    const result = await PostRequestProxy('GetAllCategories', {});
+    console.log('resultsCategory', result);
+  }
+  async function getEconomicActivities() {
+    const result = await PostRequestProxy(`GetAllEconomicActivities`, {});
+    console.log('resultsEconomicActivity', result);
+  }
 
   useEffect(() => {
+    getCategories();
+    getEconomicActivities();
+
     getPCRequests(user?.establishment[0].id);
     // if(user?.establishment[0]){
 

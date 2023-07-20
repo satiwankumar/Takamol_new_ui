@@ -6,7 +6,7 @@ import { addMinutesToDate, getTimeDifferenceInMinutes } from 'src/utils/common/u
 export const axiosObject = axios.create();
 export const BASEURLFiles = 'https://internal-occupational-health-and-safety-api.qiwa.info/api/v1';
 export const BASEURLFile = 'https://internal-occupational-health-and-safety-api.qiwa.info/api/v1/files';
-export const BASE_URL_JPROXY = 'https://qiwa-java-proxy.qiwa.tech/qiwa/layer/proxy';
+export const BASE_URL_JPROXY = 'https://qiwa-java-proxy.qiwa.info/qiwa/layer/proxy';
 
 //  Javaproxt middleware implementation
 export const PostRequestProxy = async (apiController: string, bodyHeader: any): Promise<any> => {

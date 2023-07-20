@@ -6,11 +6,11 @@ import useAuthData from './app/hooks/useAuthData';
 
 export const App = () => {
   const { t, locale } = useLocale();
-  useAuthData();
 
   useEffect(() => {
     document.title = t('BASE.CORE.PAGE_TITLE');
   }, [locale]);
+  useAuthData();
 
   return <AppRouter />;
 };

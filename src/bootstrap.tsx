@@ -1,6 +1,6 @@
 import { loadDesignSystemFonts } from '@takamol/qiwa-design-system/utils';
 import TagManager from 'react-gtm-module';
-import React from 'react';
+import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import store from './store/myStore';
@@ -48,7 +48,9 @@ export const render = async () => {
       <AppProviders messages={messages}>
         <Provider store={store}>
           <ErrorBoundary>
-            <App />
+            <StrictMode>
+              <App />
+            </StrictMode>
           </ErrorBoundary>
         </Provider>
       </AppProviders>

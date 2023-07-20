@@ -6,6 +6,8 @@ import { AuthRoute } from '../../enums/AuthRoute.enum';
 import { CoreRoute } from '../../enums/CoreRoute.enum';
 import { Layout } from 'src/app/shared/components/Layout';
 import { EstablishmentContainer } from 'src/app/pages/Establishment/EstablishmentContainer';
+import { Question } from 'src/app/pages/admin/Question';
+
 import ExampleDashboard from 'src/app/exampleDashboard/ExampleDashboard';
 
 const AppRouter = () => {

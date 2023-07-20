@@ -1,8 +1,15 @@
 import React from 'react';
-import { Box, Drawer, IconButton, Layout as Qdlayout } from '@takamol/qiwa-design-system/components';
+import { Box, Drawer, IconButton } from '@takamol/qiwa-design-system/components';
 import { Close } from '@takamol/qiwa-design-system/icons';
 import { useWindowUtils } from '@takamol/qiwa-design-system/utils/windowUtils';
-import { Footer, Sidebar, useAuth, useDrawerVisiblity, LayoutSkeleton } from '@takamol/react-qiwa-core';
+import {
+  Footer,
+  Sidebar,
+  BusinessNavigation,
+  useAuth,
+  useDrawerVisiblity,
+  LayoutSkeleton,
+} from '@takamol/react-qiwa-core';
 import { TopSection } from 'src/app/exampleDashboard/components/TopSection';
 
 interface LayoutProps {
@@ -30,12 +37,13 @@ const Layout = ({ children, isPublic = false }: LayoutProps) => {
 
   return (
     <>
-      <Box bgColor="business_700">
-        <Qdlayout variant="with-sidebar-condensed">
+      <BusinessNavigation />
+      {/* <Box bgColor="business_700">
+        <Layout variant="with-sidebar-condensed">
           <TopSection />
-        </Qdlayout>
-      </Box>
-      {/* <MainNavigation /> */}
+        </Layout>
+      </Box> */}
+
       <Box direction="row" align="stretch">
         {isDesktopWidth && <Sidebar />}
         {isTabletWidth && (
